@@ -1,0 +1,30 @@
+{
+  "name": "vite-plugin-glimmerx",
+  "version": "0.6.5",
+  "description": "GlimmerX plugin fro Vite",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifeart/vite-plugin-glimmerx.git"
+  },
+  "keywords": [
+    "glimmerx",
+    "vite"
+  ],
+  "author": "Aleksandr Kanunnikov <lifeart92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lifeart/vite-plugin-glimmerx/issues"
+  },
+  "homepage": "https://github.com/lifeart/vite-plugin-glimmerx#readme",
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "@glimmerx/babel-preset": "^0.6.5",
+    "parse-static-imports": "^1.1.0"
+  }
+}
